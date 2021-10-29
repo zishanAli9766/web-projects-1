@@ -1,0 +1,172 @@
+
+.body{
+    background-color: #ffcccb;
+    border: 2px solid black;
+    height: 100vh;
+    border-radius: 10px;
+}
+.header{
+    background-color: #a45aff;
+    border: 1px solid black ;
+    padding: 20px 50px 20px 50px;
+    margin: 20px ;
+    border-radius: 10px;
+}
+.s1 p{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 40px;
+    display: inline-block;
+    position: relative;
+    bottom: 4%;
+    left: 1%;
+
+}
+.s2 p{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 50px;
+    display: inline-block;
+    position: relative;
+    top: 7.5%;
+    right: 1.5%;
+
+}
+.s3 p{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 40px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    top: 20%;
+    right: 4%;
+
+}
+.s4 p{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 50px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    top: 31%;
+    right: 7.5%;
+}
+.s5 p{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 50px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+   top: 57%;
+   right: 11.5%;
+}
+.s6 p{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 40px;
+    display: inline-block;
+    position: absolute;
+    bottom: 92%;
+    left: 2%;
+    
+  
+
+}
+.main{
+    background-color: #ffcccb;
+    width: 40vw;
+    height: 65vh;
+    border: 1px solid black;
+    margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.main .img{
+    background-color:#a45aff ;
+    width: 37vw;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+}
+.main .article1{
+    background-color: #ffcccb;
+    width: 37vw;
+    height: 24vh;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+.main .article1 .headline1{
+    background-color:#a45aff ;
+    width: 35vw;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+}
+.main .article1 .content1{
+    background-color:#a45aff ;
+    width: 35vw;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+}
+.main .article2{
+    background-color: #ffcccb;
+    width: 37vw;
+    height: 24vh;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+.main .article2 .headline2{
+    background-color:#a45aff ;
+    width: 35vw;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+}
+.main .article2 .content2{
+    background-color:#a45aff ;
+    width: 35vw;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+}
+.aside{
+    background-color: #ffcccb;
+    width: 37vw;
+    height: 50vh;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    bottom: 69%;
+
+}
+.aside .aside1{
+    background-color:#a45aff ;
+    width: 35vw;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+}
+
