@@ -1,0 +1,552 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+/* :root{
+  
+    
+    --outline:2px solid rgba(0,0,0,.1);
+    --outline-hover:.2rem solid #130f40;
+} */
+
+    /* this is a universal tag  */
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .5s linear;
+}
+
+/* html{
+    font-size: 50%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 110px;
+} */
+
+
+ /* the home css */
+body{
+    background:#eee;
+}
+section{
+    padding:100px 20px;
+}
+
+.header-main{
+    position: fixed;
+    top:0; left:0; right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:24px 17px;
+    background:aqua;
+    box-shadow: 0 8px 30px rgba(0,0,0,.1);
+}
+
+.header-main .logo{
+    font-size: 25px;
+    font-weight: bolder;
+    color:#130f40;
+}
+
+.header-main .logo i{
+    color:#eccc68;
+}
+.header-main .navbar-main a{
+    font-size: 17px;
+    margin:0 16px;
+    color:#130f40;
+}
+
+.header-main .navbar-main a:hover{
+    color:#eccc68;
+}
+.header-main .icon1 div{
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 5px;
+    /* background: #fff; */
+    color: #130f40;
+    font-size: 30px;
+    margin-right:20px;
+    cursor: pointer;
+    text-align: center;
+}
+.header-main .icon1 div:hover{
+    background: #eccc68;
+    color:  #fff;
+}
+#menu-btn1{
+    display: none;
+}
+.aa{
+    text-align: center;
+}
+.aa .a11 img{
+  width: 300px;
+  gap: 10px;
+}
+ .aja1{
+    height: 200px;
+}
+
+
+/* ....search css start.... */
+
+
+.header-main .search-f{
+    position: absolute;
+    top: 110%; right: 25px;
+    width: 300px;
+    height: 48px;
+    background: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 8px 30px rgba(0,0,0,.1);
+    /* display: none; */
+}
+/* .aj1:hover .search-f{
+    display: block;
+    display: flex;
+} */
+
+.header-main .search-f input{
+    height: 100%;
+    width: 100%;
+    background: none;
+    text-transform: none;
+    font-size: 20px;
+    color: #130f40;
+    padding: 0 22px;
+}
+.header-main .search-f label{
+    font-size: 25px;
+    padding-right: 20px;
+    color: #130f40;
+    cursor: pointer;
+}
+.header-main .search-f label:hover{
+     color: #eccc68;
+}
+
+/* This is for a button effect */
+.btn1{
+    margin-top: 14px;
+    display: inline-block;
+    padding: 5px 20px;
+    font-size: 20px;
+    border-radius: 8px;
+    border: 2px solid #130f40;
+    color: #130f40;
+    cursor: pointer;
+    background: none;
+
+}
+.btn1:hover{
+    background: #eccc68;
+    color: #fff;
+}
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(/image/banner-bg.webp) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 180px;
+    padding-bottom: 160px;
+
+}
+.home .content1{
+    text-align: center;
+    width: 960px;
+}
+.home .content1 h3{
+    color: #130f40;
+    font-size: 48px;
+}
+.home .content1 h3 span{
+    color: #eccc68;
+}
+.home .content1 p{
+    color: #666;
+    font-size: 26px;
+    padding: 16px 0;
+    line-height: 1.8;
+}
+ /* Features section starts  */
+
+.heading{
+    text-align: center;
+    padding: 32px 0;
+    padding-bottom: 48px;
+    font-size: 40px;
+    color: #130f40;
+}
+.heading span{
+    background: #eccc68;
+    color: #fff;
+    display: inline-block;
+    padding: 8px 30px;
+    border-radius: 10px;
+}
+.features .box-container1{
+    display: flex;
+    gap: 24px;
+
+}
+.features .box-container1 .box1{
+    padding: 48px 32px;
+    background: white;
+    /* outline: var(--outline);
+    outline-offset: -16px; */
+    text-align: center;
+    box-shadow: 0 8px 30px rgba(0,0,0,.1);
+}
+.features .box-container1 .box1:hover{
+    
+    border: 1px solid;
+
+    /* outline-offset: 0px; */
+}
+.features .box-container1 .box1 img{
+    margin: 16px 0;
+    height: 240px;
+}
+.features .box-container1 .box1 h3{
+    font-size: 35px;
+    line-height: 1.8;
+    color: #130f40;
+
+}
+.features .box-container1 .box1 p{
+    font-size: 20px;
+    line-height: 1.8;
+    color: #666;
+    padding: 14px 0px;
+}
+
+
+/* the product css starts */
+.products .product-slider{
+    padding: 16px;
+}
+/* .products .product-slider:first-child{
+    margin-bottom: 32px;
+} */
+.products .product-slider .box1{
+    background: #fff;
+    border-radius: 5px;
+    text-align: center;
+    padding: 44px 32px;
+    /* outline-offset: -16px; */
+    /* outline: var(--outline); */
+   box-shadow: 0 8px 30px rgba(0,0,0,.1) ;
+   transition: .3s linear;
+
+}
+
+.products .product-slider .box1:hover{
+    /* outline-offset: 0px; */
+     border: 1px solid
+}
+.products .product-slider .box1 img{
+    height: 260px;
+}
+.products .product-slider .box1 h3{
+    font-size: 38px;
+    color: #130f40;
+}
+.products .product-slider .box1 .price{
+    font-size: 30px;
+    color: #666;
+    padding: 8px;
+
+
+}
+.products .product-slider .box1 .stars1 i{
+    font-size: 24px;
+    color: #eccc68;
+    padding: 8px 0;
+}
+/* this is a .categories start */
+
+.categories .a1{
+    display: flex;
+    gap: 24px;
+}
+.categories .a1 .box1{
+    padding: 44px 16px;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 8px 30px rgba(0,0,0,.1);
+    /* outline: var(--outline);
+    outline-offset: -15px; */
+    text-align: center;
+}
+.categories .a1 .box1:hover{
+     border: 1px solid;
+    /* outline-offset: 0px; */
+}
+.categories .a1 .box1 img{
+    margin: 16px 0;
+    height: 200px;
+}
+.categories .a1 .box1 h3{
+    font-size: 32px;
+    color: #130f40;
+    line-height: 1.8;
+}
+.categories .a1 .box1 p{
+    font-size: 24px;
+    color: #130f40;
+    line-height: 1.8;
+    padding: 16px 0;
+}
+
+/* ...........review css start........ */
+.review .review1{
+     padding: 16px;
+}
+.review .review1 .box1{
+    background: #fff;
+    border-radius: 5px;
+    text-align: center;
+    padding: 44px 32px;
+    /* outline-offset: -16px;
+    outline: var(--outline); */
+   box-shadow: 0 8px 30px rgba(0,0,0,.1) ;
+   transition: .3s linear;
+
+}
+.review .review1 .box1:hover{
+     border: 1px solid;
+    /* outline-offset: 0px; */
+}
+.review .review1 .box1 img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.review .review1 .box1 p{
+    padding: 16px 0;
+    line-height: 1.8;
+    color: #666;
+    font-size: 20px;
+}
+.review .review1 .box1 h3{
+    padding-bottom: 8px;
+    color: #130f40;
+    font-size: 30px;
+}
+.review .review1 .box1 .stars1 i{
+        color: #eccc68;
+        font-size: 24px;
+}
+
+
+ /* blogs will start here */
+
+ .blogs .box-container1{
+     display: grid;
+
+     /* grid-template-columns: repeat(auto-fit,minmax(416px,1fr)); */
+     gap: 24px;
+ }
+.blogs .box-container1 .box1{
+     overflow: hidden;
+     border-radius: 5px;
+     box-shadow: 0 8px 30px rgba(0,0,0,.1);
+     background: #fff;
+     display: flex;
+ }
+ .blogs .box-container1 .box1 img{
+     height: 400px;
+     /* width: 100%; */
+     object-fit: cover;
+ }
+ .blogs .box-container1 .box1 .content{
+     padding: 32px;
+ }
+ .blogs .box-container1 .box1 .content .icons1{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding-bottom: 24px;
+     margin-bottom: 15px;
+     border-bottom: 32px solid rgba(0,0,0,.1);
+ }
+
+ .blogs .box-container1 .box1 .content .icons1 a{
+     color: #666;
+     font-size: 24px;
+ }
+
+ .blogs .box-container1 .box1 .content .icons1 a:hover{
+     color: #130f40;
+ }
+ .blogs .box-container1 .box1 .content .icons1 a i{
+     padding-right: 8px;
+ }
+
+ .blogs .box-container1 .box1 .content h3{
+     line-height: 1.8;
+     color: #130f40;
+     font-size: 32px;
+     padding: 8px 0;
+ }
+ .blogs .box-container1 .box1 .content p{
+     line-height: 1.8;
+     color: #666;
+     font-size: 24px;
+     padding: 8px 0;
+ }
+
+
+/* the footer css starts */
+
+.footerm{
+    background: #fff;
+
+}
+.footerm .box-container1{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    gap: 22px;
+}
+.footerm .box-container1 .box1 h3{
+    font-size: 35px;
+    color: #130f40;
+    padding: 16px 0;
+}
+.footerm .box-container1 .box1 h3 i{
+    color: #eccc68;
+}
+.footerm .box-container1 .box1 .info{
+    display: block;
+    font-size: 24px;
+    color:#666;
+    padding:1rem 0;
+}
+.footerm .box-container1 .box1 .info i{
+    color: #eccc68;
+    padding-right: 8px;
+}
+.footerm .box-container1 .box1 .info:hover i{
+    padding-right: 32px;
+}
+.footerm .box-container1 .box1 p{
+    line-height: 1.8;
+    font-size: 24px;
+    color: #666;
+    padding: 16px 0;
+}
+  .footerm .box-container1 .box1 .share a{
+      height: 45px;
+      width: 50px;
+      line-height: 40px;
+      border-radius: 8px;
+      font-size: 32px;
+      color: #130f40;
+      margin-left: 4px;
+      background: #fff;
+      text-align: center;
+
+  }
+
+  .footerm .box-container1 .box1 .share a:hover{
+      background: #eccc68;
+      color: #fff;
+  }
+
+  .footerm .credit{
+    text-align: center;
+    margin-top: 32px;
+    padding-top: -10px;
+    font-size: 28px;
+    color:#130f40;
+    border-top: 32px solid rgba(0,0,0,.1);
+    position: absolute;
+    right: 0;
+    left: 0;
+
+
+  }
+  
+  .footerm .credit span{
+    color:red;
+    font-size: 40px;
+  
+  }
+  .credit{
+    background-color: black;
+    color: white !important;
+  }
+  .aj{
+    font-family: 'Yuji Syuku', serif;
+  }
+
+
+
+/*  The media starts */
+@media screen and (max-width:991px){
+    html{
+        font-size: 50%;
+    }
+    .header-main{
+        padding: 32px;
+    }
+    section{
+        padding: 30px ;
+    }
+    
+}
+@media screen and (max-width:768px) {
+    #menu-btn1{
+        display: inline-block;
+    }
+    .header-main .search-f{
+        /* width: 90%; */
+        display: none;
+    }
+    .header-main .navbar-main{                  /* this is for menu bar */
+        position: absolute;
+        top: 110%; right: -100%;
+        width: 400px;
+        box-shadow: 0 8px 30px rgba(0,0,0,.1);
+        border-radius: 5px;
+        background: aqua;
+
+    }
+    .header-main .navbar-main.active{
+        right: 32px;
+        transition: 0.4s linear;
+    }
+    .header-main .navbar-main a{
+        font-size: 32px;
+        margin: 32px 35px;
+        display: block;
+    }
+    .features .box-container1{
+        display: flex;
+        flex-direction: column;
+    }
+    .features .heading{
+        margin-top: 60px;
+    }
+}
+@media screen and (max-width:450px){
+    html{
+        font-size: 40%;
+    }
+    .footerm{
+        text-align: center;
+    }
+    
+}
